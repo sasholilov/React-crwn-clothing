@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-import { getRedirectResult } from "firebase/auth";
-
 import {
   auth,
   signInWithGooglePopup,
