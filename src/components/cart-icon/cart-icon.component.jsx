@@ -8,7 +8,7 @@ import "./cart-icon.styles.jsx";
 
 const CartIcon = () => {
   const { isCartOpen, setIsCartOpen, cartCount } = useContext(CartContext);
-  const { cartItems } = useContext(CartContext);
+  // const { cartItems } = useContext(CartContext);
 
   // const itemsCount = cartItems.reduce((acc, item) => {
   //   const count = (acc += item.quantity);
