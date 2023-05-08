@@ -19,7 +19,6 @@ import {
   writeBatch,
   query,
   getDocs,
-  QuerySnapshot,
 } from "firebase/firestore";
 
 // Your web app's Firebase configuration
