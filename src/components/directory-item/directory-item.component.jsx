@@ -7,9 +7,6 @@ import {
 } from "./directory-item.styles.jsx";
 
 const DirectoryItem = ({ category }) => {
-  {
-    console.log();
-  }
   const { imageUrl, title, route } = category;
 
   const navigate = useNavigate();

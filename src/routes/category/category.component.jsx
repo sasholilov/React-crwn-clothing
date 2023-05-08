@@ -1,4 +1,4 @@
-import { UserContext } from "../../contexts/user.context";
+//import { UserContext } from "../../contexts/user.context";
 import "./category.styles.scss";
 import { useParams } from "react-router-dom";
 import { CategoriesContext } from "../../contexts/categories.context";
