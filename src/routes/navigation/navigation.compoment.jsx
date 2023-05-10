@@ -1,5 +1,6 @@
 import { Fragment, useContext } from "react";
 import { Outlet } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
@@ -14,9 +15,10 @@ import { NavigationContainer } from "./navigation.styles";
 import { NavLInks } from "./navigation.styles";
 import { NavLink } from "./navigation.styles";
 import { LogoContainer } from "./navigation.styles";
+import { selectCurrentUser } from "../../store/user/user.selector";
 
 const Navigation = () => {
-  const { currentUser } = useContext(UserContext);
+  const currentUser = useSelector(selectCurrentUser);
   const { isCartOpen } = useContext(CartContext);
 
   return (
