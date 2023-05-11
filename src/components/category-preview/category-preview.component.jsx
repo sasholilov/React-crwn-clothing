@@ -1,9 +1,10 @@
+import ProductCard from '../product-card/product-card.component';
+
 import {
   CategoryPreviewContainer,
   Title,
   Preview,
-} from "./category-preview.styles";
-import ProductCard from "../product-card/product-card.component";
+} from './category-preview.styles';
 
 const CategoryPreview = ({ title, products }) => {
   return (
